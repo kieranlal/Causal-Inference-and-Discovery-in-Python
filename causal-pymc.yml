@@ -1,8 +1,14 @@
 name: causal-pymc
+
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - pytest
+  - nbmake
+  - jupyter
+  - ipykernel
+- notebook
   - python=3.9
   - numba
   - pip

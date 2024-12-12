@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - nbmake
   - python=3.12
   - pip
   - numpy>=1.26.0
